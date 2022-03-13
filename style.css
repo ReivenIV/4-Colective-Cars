@@ -60,16 +60,32 @@ body {
     grid-area: 3 / 2 / 5 / 7;
     font-family: 'Abril Fatface';
     font-size: 50px;
-    color: rgb(36,36,36);
+    color: rgb(36, 36, 36);
     margin-right: 5px;
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
+    flex-direction: column; 
 }
-
 .txtGauche {
     grid-area: 4 / 2 / 5 / 6;
     padding-top: 20px;
     padding-left: 118px;
-
+}
+.titre {
+    grid-area: 6 / 2 / 8 / 7;
+    font-family: 'Abril Fatface'; 
+    font-size: 130px;
+    color: rgb(36,36,36);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction: column; 
+}
+.sousTitre {
+    font-size: 13px;
+    color: rgb(36, 36, 36);
+    font-family: 'Poppins' !important;
+    padding-right: 190px;
 }
