@@ -8,7 +8,7 @@ body {
     height: 100vh;
     width: 100%;
     font-family: 'Poppins';
-    overflow: hidden;
+    /* overflow: hidden; hidden empeche le scroll du website */ 
 }    
 .grid {
     display: grid;
@@ -134,4 +134,50 @@ body {
     line-height: 160px;
 }
 
-/*  Pour mailuchis */
+/*  Panneau 2 */
+
+.d2 {
+    background: url("ressources/ferrari.jpg"); 
+    background-size: 2060px 1304px;
+    background-position: 60% 10%;
+}
+
+.t2 {
+    font-size: 90px;
+    color: #be1d01;    
+}
+.st2 {
+    color: #be1d01; 
+}
+.mt2 {
+    color: #be1d01; 
+}
+
+/*  Panneau 3 */
+
+.d3 {
+    background: url("ressources/porsche.jpg");
+    background-size: cover;
+    background-position: 60% 50%;
+}
+
+.t3 {
+    font-size: 70px;
+    color: #3134f8;
+}
+.st3 {
+    color: #3134f8;
+    padding-left: 0px;
+    padding-right: 50px;
+}
+.tg3 {
+    margin-left: -25px;
+}
+
+.stxt3 {
+    padding-right: 250px;    
+}
+
+.b3 {
+    grid-area: 2 / 1 / 4 / 3;
+}
