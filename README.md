@@ -1,18 +1,22 @@
-# 3.-State-Agency
-##  With CSSgrid and flexbox
+#### Welcome: 
+![SecondPage](Fotos-website/Ferrari-458.jpg)
 
-#### Real State agency:
-The idea here it was to create a nice / responsive landing page and then some simple diferent pages like contact, profil of the agency and a gallery of the houses they are selling. 
+## Project Screen Shot
+# 4.-Car collection 
+##  With CSSgrid, flexbox and Gsap
+
+#### Collection:
+The idea here it was to create a website with many animations and an scroll bar blocked thanks to the framework GreenSock. I have the feeling that these framework has lot of potential and i will defenitly check it out.  
 
 
 ## Project Status
-The project is finish and i'm moving on to other projets. i'm open to proposition or critics. Feel free to use it and change it as you will. 
+It's only 3 cars but it could be much longer. 
+The is finish and i'm moving on to other projets. i'm open to proposition or critics. Feel free to use it and change it as you will. The code is easily reusable in case you wanna change it. 
 
 
-## Project Screen Shot
+
   
-#### Second Page: 
-![SecondPage](Fotos-website/Ferrari-458.jpg)
+
 
 ## Contacte me: 
 
