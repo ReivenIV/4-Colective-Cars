@@ -1,8 +1,7 @@
+# 4.-Car collection 
 #### Welcome: 
 ![SecondPage](Fotos-website/Ferrari-458.jpg)
 
-## Project Screen Shot
-# 4.-Car collection 
 ##  With CSSgrid, flexbox and Gsap
 
 #### Collection:
