@@ -8,7 +8,7 @@ body {
     height: 100vh;
     width: 100%;
     font-family: 'Poppins';
-    /* overflow: hidden; hidden empeche le scroll du website */ 
+    overflow: hidden; /*hidden empeche le scroll du website */ 
 }    
 .grid {
     display: grid;
@@ -180,4 +180,51 @@ body {
 
 .b3 {
     grid-area: 2 / 1 / 4 / 3;
+}
+
+/* Animation CSS */
+
+.animBtn {
+    transform: translateX(0px);
+    animation: denied 0.4s forwards;
+}
+
+@keyframes denied {
+    0% {
+        transform: translateX(0px);
+        background: rgb(218,218,218);
+    }
+    20%{
+        transform: translateX(-5px);
+    }
+    40%{
+        transform: translateX(5px);
+        background: #ff7569;
+    }
+    60%{
+        transform: translateX(-5px);
+    }
+    80%{
+        transform: translateX(5px);
+    }
+    100%{
+        transform: translateX(0px);
+        background: rgb(218,218,218);
+    }
+}
+
+.animBtnGood {
+    animation: good 0.3s forwards;
+}
+
+@keyframes good {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+       transform: scale(0.9); 
+    }
+    100%{
+       transform: scale(1);
+    }
 }
